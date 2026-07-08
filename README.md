@@ -1,16 +1,79 @@
-# React + Vite
+🌐 AI Text Translator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered text translation web application built using React, Vite, Tailwind CSS, and RapidAPI. The application allows users to translate text into multiple languages through a clean, responsive, and user-friendly interface.
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🌍 Translate text into multiple languages
+- ⚡ Fast and accurate translations using RapidAPI
+- 🎨 Clean and responsive user interface
+- 📱 Mobile-friendly design
+- ⚛️ Built with React functional components and Hooks
+- 🔄 Real-time translation experience
 
-## React Compiler
+🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Vite
+- Tailwind CSS
+- JavaScript (ES6+)
+- RapidAPI
+- HTML5
+- CSS3
 
-## Expanding the ESLint configuration
+📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ai-text-translator-react/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
+
+🚀 Getting Started
+
+1. Clone the repository
+
+git clone git@github.com:vishakha-code27/ai-text-translator-react.git
+
+2. Navigate to the project folder
+
+cd ai-text-translator-react
+
+3. Install dependencies
+
+npm install
+
+4. Start the development server
+
+npm run dev
+
+📸 Project Screenshot
+
+«Add a screenshot of your application here after running the project.»
+
+🎯 Learning Outcomes
+
+This project helped me learn:
+
+- React fundamentals
+- React Hooks ("useState", "useEffect")
+- Client-side routing
+- API integration using RapidAPI
+- Environment variables (".env")
+- Responsive UI development with Tailwind CSS
+- Git and GitHub version control
+
+👩‍💻 Author
+
+Vishakha Chavan
+
+GitHub: https://github.com/vishakha-code27
+
+---
+
+⭐ If you found this project useful, feel free to star the repository.
