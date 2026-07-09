@@ -1,17 +1,17 @@
-🌐 AI Text Translator
+# 🌐 AI Text Translator
 
-An AI-powered text translation web application built using React, Vite, Tailwind CSS, and RapidAPI. The application allows users to translate text into multiple languages through a clean, responsive, and user-friendly interface.
+An AI-powered text translation web application built with React, Vite, Tailwind CSS, and RapidAPI. The application enables users to translate text into multiple languages through a clean, responsive, and user-friendly interface.
 
-✨ Features
+## Features
 
-- 🌍 Translate text into multiple languages
-- ⚡ Fast and accurate translations using RapidAPI
-- 🎨 Clean and responsive user interface
-- 📱 Mobile-friendly design
-- ⚛️ Built with React functional components and Hooks
-- 🔄 Real-time translation experience
+- Translate text into multiple languages
+- Fast and accurate translations using RapidAPI
+- Clean and responsive user interface
+- Mobile-friendly design
+- Built with React functional components and Hooks
+- Real-time translation experience
 
-🛠️ Technologies Used
+## Technologies Used
 
 - React.js
 - Vite
@@ -21,8 +21,9 @@ An AI-powered text translation web application built using React, Vite, Tailwind
 - HTML5
 - CSS3
 
-📂 Project Structure
+## Project Structure
 
+```text
 ai-text-translator-react/
 ├── public/
 ├── src/
@@ -33,12 +34,14 @@ ai-text-translator-react/
 ├── package.json
 ├── vite.config.js
 └── README.md
-
-🚀 Getting Started
+```
+## Getting Started
 
 1. Clone the repository
 
+```bash
 git clone git@github.com:vishakha-code27/ai-text-translator-react.git
+```
 
 2. Navigate to the project folder
 
@@ -52,23 +55,33 @@ npm install
 
 npm run dev
 
-📸 Project Screenshot
+## Project Screenshots
 
-«Add a screenshot of your application here after running the project.»
+###  Home Page
 
-🎯 Learning Outcomes
+![Home Page](images/home-page.png)
+
+###  Translator Page
+
+![Translator Page](images/translator-page.png)
+
+###  Random Generator Page
+
+![Random Generator Page](images/random-generator-page.png)
+
+## Learning Outcomes
 
 This project helped me learn:
 
 - React fundamentals
-- React Hooks ("useState", "useEffect")
+- React Hooks (`useState`, `useEffect`)
 - Client-side routing
 - API integration using RapidAPI
-- Environment variables (".env")
+- Environment variables (`.env`)
 - Responsive UI development with Tailwind CSS
 - Git and GitHub version control
 
-👩‍💻 Author
+## Author
 
 Vishakha Chavan
 
@@ -76,4 +89,3 @@ GitHub: https://github.com/vishakha-code27
 
 ---
 
-⭐ If you found this project useful, feel free to star the repository.
