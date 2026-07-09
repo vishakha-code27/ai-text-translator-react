@@ -18,7 +18,7 @@ function Navbar() {
           </Link>
        
           <Link to="/random" className="hover:text-yellow-300">
-            String Generator
+           Random Generator
           </Link>
         </div>
       </div>
