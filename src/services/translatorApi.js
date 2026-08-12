@@ -1,30 +1,21 @@
-const translateText = async (text, language) => {
-  const url = `https://google-translate-api14.p.rapidapi.com/translate.php?input_text=${encodeURIComponent(
-    text
-  )}&to_language=${language}`;
-
-  const options = {
-    method: "GET",
-    headers: {
-      "Content-Type": "application/json",
-      "x-rapidapi-key": import.meta.env.VITE_RAPIDAPI_KEY,
-      "x-rapidapi-host": "google-translate-api14.p.rapidapi.com",
-    },
-  };
-
+const translateText = async (text, targetLanguage) => {
   try {
-    const response = await fetch(url, options);
+    const response = await fetch(
+      `https://api.mymemory.translated.net/get?q=${encodeURIComponent(
+        text
+      )}&langpair=en|${targetLanguage}`
+    );
+
+    if (!response.ok) {
+      throw new Error("Translation request failed");
+    }
+
     const data = await response.json();
 
-    console.log(data);
-
-    if (data.message) {
-  return "Translation service is temporarily unavailable because the free API limit has been reached. Please try again later.";
-}
-return data.translatedText || JSON.stringify(data);
+    return data.responseData.translatedText;
   } catch (error) {
-    console.error(error);
-    return "Translation failed!";
+    console.error("Translation Error:", error);
+    throw error;
   }
 };
 
